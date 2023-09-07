@@ -10,5 +10,6 @@ Garante que uma classe tenha somente uma instância, que é facilmente acessíve
  Possui um único atributo privado e estático da classe Tabuleiro chamado tabuleiro Único que está nulo; um construtor privado e um método público e estático ( getInstanciaTabuleiro )
  que tem uma condição ( if )que só cria uma instância se o atributo estático tabuleiro Único está nulo.
  
+Esse padrão de projeto pode ser usado para:
+- Construção de chamadas em banco de dados;
 
- 
